@@ -1,7 +1,9 @@
 library(ggplot2)
 library(dplyr)
+library(RCurl)
 
-d <- read.csv("S1.csv")
+x <- getURL("https://s3.eu-west-2.amazonaws.com/sc3-paper-figures/S1.csv")
+d <- read.csv(text = x)
 d <- d[d$Dataset %in% c("Deng", "Pollen", "Kolodziejczyk"), ]
 
 d_med <- d %>%
