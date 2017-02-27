@@ -1,4 +1,4 @@
-library(ggplot2)
+library(cowplot)
 library(dplyr)
 
 options(stringsAsFactors = FALSE)
