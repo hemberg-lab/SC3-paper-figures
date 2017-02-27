@@ -5,7 +5,7 @@ options(stringsAsFactors = FALSE)
 font_size <- 6
 
 get_a <- function() {
-    d <- read.csv("S3a.csv")
+    d <- read.csv("data/S3a.csv")
     
     d$Dataset <- factor(
         d$Dataset, 
@@ -29,7 +29,7 @@ get_a <- function() {
 }
 
 get_b <- function() {
-    d <- read.csv("S3b.csv")
+    d <- read.csv("data/S3b.csv")
     
     d$Dataset <- factor(
         d$Dataset, 
@@ -53,7 +53,7 @@ get_b <- function() {
 }
 
 get_c <- function() {
-    d <- read.csv("S3c.csv")
+    d <- read.csv("data/S3c.csv")
     
     d$Dataset <- factor(
         d$Dataset, 
@@ -125,7 +125,7 @@ get_d <- function() {
               "Usoskin3" = "#fdb462", "Kolodziejczyk" = "#bf812d",
               "Klein" = "#b3de69", "Zeisel" = "#fccde5")
     
-    d <- read.csv("S3d.csv")
+    d <- read.csv("data/S3d.csv")
     
     d$Hierarchy <- factor(
         d$Hierarchy, 
@@ -178,4 +178,4 @@ get_d <- function() {
 
 plot_grid(get_a(), get_b(), get_c(), get_d(), ncol = 2, labels = c("a", "b", "c", "d"), rel_heights = c(1, 1.8))
 
-ggsave("S3.jpeg", w = 9, h = 6)
+ggsave("jpeg/S3.jpeg", w = 9, h = 6)

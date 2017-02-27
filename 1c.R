@@ -3,7 +3,7 @@ library(dplyr)
 
 options(stringsAsFactors = FALSE)
 
-d <- read.csv("1c.csv")
+d <- read.csv("data/1c.csv")
 
 d$Dataset <- factor(
     d$Dataset, 
@@ -24,5 +24,5 @@ p <- ggplot(d, aes(d, fill = Dataset)) +
     labs(x = "d as % of N", y = "# of solutions with ARI > 95% of max.") +
     theme_classic(base_size = 14)
 
-ggsave("1c.pdf", w = 6, h = 4.5)
-ggsave("1c.jpeg", w = 6, h = 4.5)
+ggsave("pdf/1c.pdf", w = 6, h = 4.5)
+ggsave("jpeg/1c.jpeg", w = 6, h = 4.5)

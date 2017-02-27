@@ -18,7 +18,7 @@ gtable_stack <- function(g1, g2){
     g1
 }
 
-d <- read.csv("1d.csv")
+d <- read.csv("data/1d.csv")
 
 d[d$Dataset == "Kolodziejczyk", ]$Dataset <- "Kolodz."
 
@@ -81,5 +81,5 @@ new_plot <- gtable_stack(g1, new_strips)
 
 plot_grid(new_plot)
 
-ggsave("1d.pdf", w = 6.3, h = 4.5)
-ggsave("1d.jpeg", w = 6.3, h = 4.5)
+ggsave("pdf/1d.pdf", w = 6.3, h = 4.5)
+ggsave("jpeg/1d.jpeg", w = 6.3, h = 4.5)

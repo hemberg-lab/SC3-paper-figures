@@ -7,44 +7,44 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)
 
 ### Fig. 1
-[data_c](1c.csv)  
+[data_c](data/1c.csv)  
 [script](1c.R)  
-[pdf](1c.pdf)  
-![](1c.jpeg)
+[pdf](pdf/1c.pdf)  
+![](jpeg/1c.jpeg)
 
-[data_d](1d.csv)  
+[data_d](data/1d.csv)  
 [script](1d.R)  
-[pdf](1d.pdf)  
-![](1d.jpeg)
+[pdf](pdf/1d.pdf)  
+![](jpeg/1d.jpeg)
 
 ### Fig. S1
 
-[data](S1.csv)  
+[data](data/S1.csv)  
 [script](S1.R)  
-![](S1.jpeg)
+![](jpeg/S1.jpeg)
 
 ### Fig. S2
 
-[data](S2.csv)  
+[data](data/S2.csv)  
 [script](S2.R)  
-![](S2.jpeg)
+![](jpeg/S2.jpeg)
 
 ### Fig. S3
-[data_a](S3a.csv)  
-[data_b](S3b.csv)  
-[data_c](S3c.csv)  
-[data_d](S3d.csv)  
+[data_a](data/S3a.csv)  
+[data_b](data/S3b.csv)  
+[data_c](data/S3c.csv)  
+[data_d](data/S3d.csv)  
 [script](S3.R)  
-![](S3.jpeg)
+![](jpeg/S3.jpeg)
 
 ### Fig. S4
-[data_a](S4a.csv)  
-[data_b](S4b.csv)  
-[data_c](S4c.csv)  
-[data_d](S4d.csv)  
-[data_e](S4e.csv)  
+[data_a](data/S4a.csv)  
+[data_b](data/S4b.csv)  
+[data_c](data/S4c.csv)  
+[data_d](data/S4d.csv)  
+[data_e](data/S4e.csv)  
 [script](S4.R)  
-![](S4.jpeg)
+![](jpeg/S4.jpeg)
 
 ## Session Info
 

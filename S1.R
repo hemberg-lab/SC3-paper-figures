@@ -3,7 +3,7 @@ library(dplyr)
 
 options(stringsAsFactors = FALSE)
 
-d <- read.csv("S1.csv")
+d <- read.csv("data/S1.csv")
 
 d_med <- d %>%
     group_by(Dataset, gene_filter, Distance, Transformation, d) %>%
@@ -25,4 +25,4 @@ p <- ggplot(d, aes(d, ARI, group = Group, color = Transformation)) +
     annotate("segment", x=-Inf, xend=Inf, y=-Inf, yend=-Inf, color = "black")+
     annotate("segment", x=-Inf, xend=-Inf, y=-Inf, yend=Inf, color = "black")
 
-ggsave("S1.jpeg", w = 9, h = 6)
+ggsave("jpeg/S1.jpeg", w = 9, h = 6)

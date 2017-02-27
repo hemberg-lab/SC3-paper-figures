@@ -5,7 +5,7 @@ options(stringsAsFactors = FALSE)
 font_size <- 7
 
 get_a <- function() {
-    d <- read.csv("S4a.csv")
+    d <- read.csv("data/S4a.csv")
     d$group <- paste(d$nstart, d$Method)
     d$Method <- factor(
         d$Method, 
@@ -45,7 +45,7 @@ get_b <- function() {
               "Usoskin3" = "#fdb462", "Kolodziejczyk" = "#bf812d",
               "Klein" = "#b3de69", "Zeisel" = "#fccde5")
     
-    d <- read.csv("S4b.csv")
+    d <- read.csv("data/S4b.csv")
 
     d$Dataset <- factor(
         d$Dataset, 
@@ -101,7 +101,7 @@ get_c <- function() {
               "Kolodziejczyk" = "#bf812d", "Usoskin3" = "#fdb462",
               "Klein" = "#40E0D0", "Zeisel" = "#fccde5", "Macosko" = "#d9d9d9")
     
-    d <- read.csv("S4c.csv")
+    d <- read.csv("data/S4c.csv")
     
     d$Dataset <- factor(
         d$Dataset,
@@ -149,7 +149,7 @@ get_d <- function() {
     cols <- c("Pollen2" = "#fb8072",
               "Kolodziejczyk" = "#bf812d")
     
-    d <- read.csv("S4d.csv")
+    d <- read.csv("data/S4d.csv")
     d$Dataset <- factor(d$Dataset, levels <- c("Pollen2", "Kolodziejczyk"))
     
     limits <- aes(ymax = mean + se, ymin = mean - se)
@@ -168,7 +168,7 @@ get_e <- function() {
     cols <- c("Pollen2" = "#fb8072",
               "Kolodziejczyk" = "#bf812d")
     
-    d <- read.csv("S4e.csv")
+    d <- read.csv("data/S4e.csv")
     d$Dataset <- factor(d$Dataset, levels <- c("Pollen2", "Kolodziejczyk"))
     
     limits <- aes(ymax = mean + se, ymin = mean - se)
@@ -190,4 +190,4 @@ third_row <- plot_grid(get_d(), get_e(), ncol = 2, labels = c("d", "e"))
 
 plot_grid(first_row, second_row, third_row, nrow = 3)
 
-ggsave("S4.jpeg", w = 9, h = 6)
+ggsave("jpeg/S4.jpeg", w = 9, h = 6)
