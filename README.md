@@ -6,6 +6,17 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 [cowplot](https://cran.r-project.org/web/packages/cowplot/index.html)  
 [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)
 
+### Fig. 1
+[data_c](1c.csv)  
+[script](1c.R)  
+[pdf](1c.pdf)  
+![](1c.jpeg)
+
+[data_d](1d.csv)  
+[script](1d.R)  
+[pdf](1d.pdf)  
+![](1d.jpeg)
+
 ### Fig. S1
 
 [data](S1.csv)  
@@ -23,6 +34,7 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 [data_b](S3b.csv)  
 [data_c](S3c.csv)  
 [data_d](S3d.csv)  
+[script](S3.R)  
 ![](S3.jpeg)
 
 ### Fig. S4
@@ -31,6 +43,7 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 [data_c](S4c.csv)  
 [data_d](S4d.csv)  
 [data_e](S4e.csv)  
+[script](S4.R)  
 ![](S4.jpeg)
 
 ## Session Info

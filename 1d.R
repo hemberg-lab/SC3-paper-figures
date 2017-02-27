@@ -82,3 +82,4 @@ new_plot <- gtable_stack(g1, new_strips)
 plot_grid(new_plot)
 
 ggsave("1d.pdf", w = 6.3, h = 4.5)
+ggsave("1d.jpeg", w = 6.3, h = 4.5)
