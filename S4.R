@@ -54,7 +54,7 @@ get_b <- function() {
                    "Usoskin2", "Usoskin3", "Klein", "Zeisel")
     )
     
-    d$nstart <- factor(d$nstart, levels = c("1000", "50"))
+    d$nstart <- factor(d$nstart, levels = c("50", "1000"))
     cols.clust <- c("50" = "#999999", "1000" = "#e41a1c")
 
     d1 <- d %>%

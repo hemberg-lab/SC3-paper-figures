@@ -1,6 +1,5 @@
 library(ggplot2)
 library(dplyr)
-library(RCurl)
 
 options(stringsAsFactors = FALSE)
 
