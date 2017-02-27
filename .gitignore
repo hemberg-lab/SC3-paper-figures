@@ -1,4 +1,5 @@
 *.jpeg
+*.pdf
 *.csv
 .Rproj.user
 .Rhistory

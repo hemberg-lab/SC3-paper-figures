@@ -5,7 +5,6 @@ library(RCurl)
 # Download raw data from https://s3.eu-west-2.amazonaws.com/sc3-paper-figures/fig1-raw.csv
 # then:
 d <- read.csv("fig1-raw.csv")
-d <- d[, c(1:2,8:9,11,13)]
 d <- d[d$Dataset %in% c("Deng", "Pollen", "Kolodziejczyk"), ]
 
 # save data for online publication
