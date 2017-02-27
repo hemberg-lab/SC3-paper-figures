@@ -19,18 +19,18 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 ![](S2.jpeg)
 
 ### Fig. S3
-[data_a](S3a.csv)
-[data_b](S3b.csv)
-[data_c](S3c.csv)
-[data_d](S3d.csv)
+[data_a](S3a.csv)  
+[data_b](S3b.csv)  
+[data_c](S3c.csv)  
+[data_d](S3d.csv)  
 ![](S3.jpeg)
 
 ### Fig. S4
-[data_a](S4a.csv)
-[data_b](S4b.csv)
-[data_c](S4c.csv)
-[data_d](S4d.csv)
-[data_e](S4e.csv)
+[data_a](S4a.csv)  
+[data_b](S4b.csv)  
+[data_c](S4c.csv)  
+[data_d](S4d.csv)  
+[data_e](S4e.csv)  
 ![](S4.jpeg)
 
 ## Session Info
