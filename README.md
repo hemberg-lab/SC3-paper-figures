@@ -4,7 +4,7 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 ### Required R libraries
 
 [cowplot](https://cran.r-project.org/web/packages/cowplot/index.html)  
-[dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)
+[dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)  
 [googleVis](https://cran.r-project.org/web/packages/googleVis/index.html)
 
 ### Fig. 1
