@@ -5,6 +5,7 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 
 [cowplot](https://cran.r-project.org/web/packages/cowplot/index.html)  
 [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)
+[googleVis](https://cran.r-project.org/web/packages/googleVis/index.html)
 
 ### Fig. 1
 [data_c](data/1c.csv)  
@@ -52,6 +53,17 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 
 ![](jpeg/S4.jpeg)
 
+### Fig. S5
+[data_a](data/S5a.csv)  
+[data_b](data/S5b.csv)  
+[html_b](data/S5b.html)  
+[script_a](S4a.R)  
+[script_b](S4b.R)  
+[pdf_a](pdf/S5a.pdf)  
+[pdf_b](pdf/S5b.pdf)
+
+![](jpeg/S4.jpeg)
+
 ## Session Info
 
 ```
@@ -66,10 +78,10 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] dplyr_0.5.0   cowplot_0.7.0 ggplot2_2.2.1
+[1] googleVis_0.6.1 dplyr_0.5.0     cowplot_0.7.0   ggplot2_2.2.1  
 
 loaded via a namespace (and not attached):
- [1] colorspace_1.3-1 scales_0.4.1     magrittr_1.5     R6_2.2.0         assertthat_0.1   lazyeval_0.2.0  
- [7] plyr_1.8.4       DBI_0.5-1        tools_3.4.0      gtable_0.2.0     tibble_1.2       Rcpp_0.12.8     
-[13] grid_3.4.0       munsell_0.4.3     
+ [1] Rcpp_0.12.8      codetools_0.2-15 assertthat_0.1   grid_3.4.0       plyr_1.8.4       R6_2.2.0        
+ [7] jsonlite_1.1     gtable_0.2.0     DBI_0.5-1        magrittr_1.5     scales_0.4.1     lazyeval_0.2.0  
+[13] tools_3.4.0      munsell_0.4.3    colorspace_1.3-1 tibble_1.2   
 ```
