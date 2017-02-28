@@ -55,14 +55,17 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 
 ### Fig. S5
 [data_a](data/S5a.csv)  
+[script_a](S4a.R)  
+[pdf_a](pdf/S5a.pdf)  
+
+![](jpeg/S5a.jpeg)
+
 [data_b](data/S5b.csv)  
 [html_b](data/S5b.html)  
-[script_a](S4a.R)  
 [script_b](S4b.R)  
-[pdf_a](pdf/S5a.pdf)  
 [pdf_b](pdf/S5b.pdf)
 
-![](jpeg/S4.jpeg)
+![](jpeg/S5b.jpeg)
 
 ## Session Info
 
