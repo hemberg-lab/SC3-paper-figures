@@ -6,6 +6,7 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 [cowplot](https://cran.r-project.org/web/packages/cowplot/index.html)  
 [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)  
 [googleVis](https://cran.r-project.org/web/packages/googleVis/index.html)
+[pheatmap](https://cran.r-project.org/web/packages/pheatmap/index.html)
 
 ### Fig. 1
 [data_c](data/1c.csv)  
@@ -89,10 +90,11 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] googleVis_0.6.1 dplyr_0.5.0     cowplot_0.7.0   ggplot2_2.2.1  
+[1] pheatmap_1.0.8  googleVis_0.6.1 dplyr_0.5.0     cowplot_0.7.0   ggplot2_2.2.1  
 
 loaded via a namespace (and not attached):
- [1] Rcpp_0.12.8      codetools_0.2-15 assertthat_0.1   grid_3.4.0       plyr_1.8.4       R6_2.2.0        
- [7] jsonlite_1.1     gtable_0.2.0     DBI_0.5-1        magrittr_1.5     scales_0.4.1     lazyeval_0.2.0  
-[13] tools_3.4.0      munsell_0.4.3    colorspace_1.3-1 tibble_1.2   
+ [1] Rcpp_0.12.8        codetools_0.2-15   assertthat_0.1     grid_3.4.0         plyr_1.8.4        
+ [6] R6_2.2.0           jsonlite_1.1       gtable_0.2.0       DBI_0.5-1          magrittr_1.5      
+[11] scales_0.4.1       lazyeval_0.2.0     RColorBrewer_1.1-2 tools_3.4.0        munsell_0.4.3     
+[16] colorspace_1.3-1   tibble_1.2
 ```
