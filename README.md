@@ -73,7 +73,7 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 [script](S6.R)  
 [pdf](pdf/S6.pdf)  
 
-![](jpeg/S5a.jpeg)
+![](jpeg/S6.jpeg)
 
 ## Session Info
 
