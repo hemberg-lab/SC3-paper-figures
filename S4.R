@@ -133,7 +133,8 @@ get_c <- function() {
         theme_classic(base_size = font_size) +
         theme(axis.ticks.x = element_blank(), axis.text.x=element_blank(),
               axis.title.x=element_blank(), axis.line=element_blank(),
-              strip.background = element_rect(colour = "white")) +
+              strip.background = element_rect(colour = "white"),
+              legend.key.size = unit(0.4, "cm")) +
         ylim(0,1) +
         annotate("segment", x=-Inf, xend=Inf, y=-Inf, yend=-Inf, color = "black")+
         annotate("segment", x=-Inf, xend=-Inf, y=-Inf, yend=Inf, color = "black")
@@ -141,7 +142,7 @@ get_c <- function() {
         draw_label("% of total # of cells\nin a training set", 
                    fontface = "bold",
                    size = font_size-3,
-                   x = 0.86, y = 0.93)
+                   x = 0.87, y = 0.93)
     return(p)
 }
 
