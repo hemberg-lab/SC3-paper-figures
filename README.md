@@ -21,6 +21,22 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 
 ![](jpeg/1d.jpeg)
 
+### Fig. 2
+[data_a](data/2a.csv)  
+[data_c](data/2c.csv)  
+[data_d](data/2d.csv)  
+[script](2.R)  
+[pdf](pdf/2.pdf)
+
+![](jpeg/2.jpeg)
+
+### Fig. 3
+[data](data/3.csv)  
+[script](3.R)  
+[pdf](pdf/3.pdf)
+
+![](jpeg/3.jpeg)
+
 ### Fig. S1
 
 [data](data/S1.csv)  
@@ -75,6 +91,22 @@ This repository contains scripts for recreation of the figures from the SC3 pape
 [pdf](pdf/S6.pdf)  
 
 ![](jpeg/S6.jpeg)
+
+### Fig. S7
+[data_a1](data/S7a1.csv)  
+[data_a2](data/S7a2.csv)  
+[data_b1](data/S7b1.csv)  
+[data_b2](data/S7b2.csv)  
+[script](S7.R)  
+
+![](jpeg/S7.jpeg)
+
+### Fig. S12
+[data_a](data/S12a.csv)  
+[script](S12.R)  
+[pdf](pdf/S12.pdf)
+
+![](jpeg/S12.jpeg)
 
 ## Session Info
 
